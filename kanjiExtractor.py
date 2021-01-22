@@ -43,35 +43,3 @@ x=x+"\n];"
 
 m=open("results.txt","w",encoding="utf8")
 m.write(x)
-
-#-----------------------------------------------------------
-
-# #1
-# m=f.readline()
-# x=x+m+"',x2:"
-
-# #2
-# m=f.readline()
-# x=x+m+"',x3:"
-
-# #3
-# m=f.readline()
-# x=x+m+"',x4:"
-
-# #4
-# m=f.readline()
-# x=x+m+"',x5:"
-
-# #5
-# m=f.readline()
-# x=x+m+"',x6:"
-
-
-
-
-#print (x)
-
-
-#wytnik od strungu x do strungu y bez nich
-
-
