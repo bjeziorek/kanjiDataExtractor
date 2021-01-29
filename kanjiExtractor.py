@@ -22,6 +22,9 @@ while(f.tell()<end):
     g=re.sub('<a.*?>','',g)
     g=re.sub('<tr>','',g)
     g=re.sub('</a>','',g)
+    g=re.sub('\'','\\\'',g)
+    g=re.sub('<span.*?</span>','',g)
+    g=re.sub('<sup.*?</sup>','',g)
     g=str.rstrip(g)
     if keyNames[i]=='Readings_kana':
      z=re.sub('>.*','',g)
